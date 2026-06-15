@@ -1,0 +1,48 @@
+{
+  "usuarios": [
+    {
+      "nome": "Felipe Schuler Fernandes",
+      "email": "felipeschuler1012@gmail.com",
+      "telefone": "71991819181",
+      "medicamentos": [
+        {
+          "nome": "Amoxicilina",
+          "dosagem": "500 mg",
+          "tipo": "Contínuo",
+          "quantidade_disponivel": 19,
+          "horarios": [
+            "16:00"
+          ],
+          "agendamentos": [
+            {
+              "horario": "16:00",
+              "data": "2026-06-15",
+              "status": "Tomado",
+              "notificado": true,
+              "horario_confirmacao": "14:07"
+            }
+          ]
+        },
+        {
+          "nome": "Amoxicilina",
+          "dosagem": "500 mg",
+          "tipo": "Contínuo",
+          "quantidade_disponivel": 20,
+          "horarios": [],
+          "agendamentos": []
+        },
+        {
+          "nome": "Amoxicilina",
+          "dosagem": "500 mg",
+          "tipo": "Contínuo",
+          "quantidade_disponivel": 20,
+          "horarios": [
+            "08:00",
+            "20:00"
+          ],
+          "agendamentos": []
+        }
+      ]
+    }
+  ]
+}
