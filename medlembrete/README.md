@@ -73,16 +73,3 @@ behave
 
 O Behave executa todos os arquivos `.feature` em `features/` usando os
 cenários e critérios de aceitação definidos com a equipe/cliente.
-
-## Subindo o projeto para o GitHub (sem precisar instalar o Git)
-
-1. Crie um repositório novo em https://github.com/new.
-2. Na página do repositório recém-criado, clique em **"uploading an existing
-   file"** (ou "Add file" → "Upload files").
-3. Arraste a pasta `medlembrete` (ou os arquivos extraídos do `.zip`) para a
-   área de upload.
-4. Escreva uma mensagem de commit (ex: "Sprint 1 - histórias e implementação
-   inicial") e clique em **"Commit changes"**.
-
-Isso é suficiente para entregar o código no GitHub sem precisar instalar nada
-adicional no Windows.
