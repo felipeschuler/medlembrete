@@ -1,0 +1,68 @@
+{
+  "usuarios": [
+    {
+      "nome": "Felipe Schuler Fernandes",
+      "email": "felipeschuler1012@gmail.com",
+      "telefone": "71991812867",
+      "medicamentos": [
+        {
+          "nome": "Amoxicilina",
+          "dosagem": "500 mg",
+          "tipo": "Contínuo",
+          "quantidade_disponivel": 20,
+          "horarios": [
+            "08:00",
+            "20:00"
+          ],
+          "agendamentos": [
+            {
+              "horario": "08:00",
+              "data": "2026-06-17",
+              "status": "Pendente",
+              "notificado": false,
+              "horario_confirmacao": null,
+              "lembretes_extras_enviados": 0
+            },
+            {
+              "horario": "20:00",
+              "data": "2026-06-17",
+              "status": "Pendente",
+              "notificado": false,
+              "horario_confirmacao": null,
+              "lembretes_extras_enviados": 0
+            }
+          ]
+        },
+        {
+          "nome": "Dipirona",
+          "dosagem": "200 mg",
+          "tipo": "Temporário",
+          "quantidade_disponivel": 30,
+          "horarios": [
+            "09:00"
+          ],
+          "agendamentos": [
+            {
+              "horario": "09:00",
+              "data": "2026-06-17",
+              "status": "Pendente",
+              "notificado": true,
+              "horario_confirmacao": null,
+              "lembretes_extras_enviados": 3
+            }
+          ]
+        },
+        {
+          "nome": "Buscopan",
+          "dosagem": "100 mg",
+          "tipo": "Temporário",
+          "quantidade_disponivel": 16,
+          "horarios": [
+            "18:07"
+          ],
+          "agendamentos": []
+        }
+      ]
+    }
+  ]
+}
